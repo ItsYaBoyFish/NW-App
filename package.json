@@ -1,0 +1,25 @@
+{
+  "name": "nw-app",
+  "version": "1.0.0",
+  "description": "First  NW.js Desktop App.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src",
+    "prod": "nwbuild --platforms win32,win64,osx64 --buildDir dist/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsYaBoyFish/NW-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsYaBoyFish/NW-App/issues"
+  },
+  "homepage": "https://github.com/ItsYaBoyFish/NW-App#readme",
+  "devDependencies": {
+    "nw": "^0.50.2",
+    "nw-builder": "^3.5.7"
+  }
+}
